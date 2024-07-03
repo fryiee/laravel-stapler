@@ -14,6 +14,12 @@
         "codesleeve/stapler": "dev-master",
         "laravel/framework": "4.*|5.*|11.*"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/fryiee/stapler"
+        }
+    ],
     "autoload": {
         "classmap": [
             "src/migrations"
